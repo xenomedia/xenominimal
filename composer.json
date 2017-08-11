@@ -1,0 +1,13 @@
+{
+  "name": "xenomedia/xenominimal",
+  "type": "drupal-custom-theme",
+  "description": "Drupal 8 theme. Child of the Adminimal Admin theme.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/xenomedia/xenominimal",
+  "support": {
+    "issues": "https://github.com/xenomedia/xenominimal/issues",
+    "source": "https://github.com/xenomedia/xenominimal"
+  },
+  "require": { }
+}

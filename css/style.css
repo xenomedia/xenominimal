@@ -1,0 +1,123 @@
+/* Set font */
+body.adminimal {
+  color: #555;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857;
+}
+
+a {
+  color: #8cc53e;
+  text-decoration: none;
+}
+
+/* Menu Adjustments. */
+.toolbar-tray-horizontal .menu-item {
+  background-color: #f5f5f2;
+}
+
+.adminimal .toolbar-tray a {
+  color: #434343;
+}
+
+.adminimal .toolbar .toolbar-tray .menu-item--active-trail > .toolbar-box a,
+.adminimal .toolbar .toolbar-tray a.is-active {
+  color: #111;
+}
+
+.toolbar .toolbar-lining {
+  background: #f5f5f2;
+}
+
+/* Fixes Shortcut menu color */
+#toolbar-item-shortcuts-tray.toolbar-tray {
+  background-color: #fff;
+}
+
+/* Layout */
+.adminimal .content-header {
+  background: #6fa8dc;
+  color: #333;
+  margin-bottom: 2em;
+}
+
+.adminimal .content-header a {
+  color: #333;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  padding: 0 0 15px;
+}
+
+.breadcrumb li,
+.breadcrumb a {
+  color: #ddd;
+}
+
+.adminimal h1,
+.adminimal .heading-a {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Removes top margin from tabs. */
+.layout-region .field-group-tabs-wrapper > .vertical-tabs {
+  margin-top: 0;
+}
+
+/* Forms */
+/* Puts edit buttons inline. */
+.form--inline .form-actions,
+#edit-node-bulk-form--2 .form-actions {
+  clear: none;
+  display: inline-block;
+  float: left;
+  margin-top: 30px;
+}
+
+#edit-node-bulk-form--2 .form-item {
+  float: left;
+  margin-right: 0.5em;
+}
+
+/* Inputs full width. */
+.field--name-title input,
+.xeno select,
+.xeno input.form-text {
+  width: 100%;
+}
+
+.xeno .form-actions .button {
+  margin-top: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.xeno select {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Customizes form focus color. */
+input:focus,
+input[type]:focus,
+select:focus,
+textarea:focus,
+button:focus,
+[contenteditable="true"]:focus {
+  outline-color: #8cc53e;
+}
+
+input[type]:focus,
+select:focus,
+textarea:focus {
+  border-color: #8cc53e;
+}
