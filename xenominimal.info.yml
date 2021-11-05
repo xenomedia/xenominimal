@@ -1,7 +1,7 @@
 name: Xenominimal
 type: theme
 description: Drupal 8 theme. Child of the Adminimal Admin theme.
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 base theme: adminimal_theme
 libraries:
   - xenominimal/global-styling
